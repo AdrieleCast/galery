@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    background:rgba(119, 104, 98, 0.795);
+  }
+
+  .cabeçalho{
+    text-align: center;
+  }
+
+  h1{
+    text-align: center;
+    color: rgb(8, 32, 54);
+    font-size: 45px;
+    margin: 40px;
+  }
+
+  .foto{
+    visibility: hidden;
+    opacity: 0px;
+  }
+
+  .foto:target{
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(10, 10, 10, .7);
+    
+    position: fixed;
+  }
+
+  .livro{
+    margin-left: 220px;
+  }
+
+  .liv{
+    width: 100px;
+    height: 100px;
+    margin-right: 70px;
+    margin-left: 75px;
+  }
+
+  .liv:hover{
+    border: 4px solid #c49958;
+  }
+
+  .box{
+    width: 1000px;
+    margin: 150px auto;
+  }
+
+  .rel{
+    width: 45px;
+    height: 45px;
+    float: left;
+    margin-left: 650px;
+    margin-top: 35px;
+  }
+
+  .lov{
+    width: 45px;
+    height: 45px;
+    float: right;
+    margin-right: 877px;
+    margin-top: 35px;
+    margin-bottom: 2px;
+  }
+
+  .vid{
+    width: 55px;
+    height: 55px;
+    float: right;
+    margin-right: -270px;
+    margin-top: 34px;
+  }
+
+  ul{
+    width: 880px;
+    list-style: none;
+    display: flex;
+    margin: 100px auto;
+  }
+
+  .min{
+    width: 300px;
+    padding: 190px;
+    margin-left: -280px;
+  }
+
+  .button{
+    color: #fff;
+    font-family: 'Arial';
+    text-decoration: none;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  #prev{
+    left: 19%;
+    top: 45%;
+  }
+
+  #next{
+    right: 20%;
+    top: 45%;
+  }
+
+  #close{
+    right: 0;
+    top: 2%;
+  }
+  
+  .set{
+    background-color: rgba(255, 255, 255, 0.425);
+    border-radius: 50px;
+  }
+
+  .set2{
+    background-color: rgba(255, 255, 255, 0.425);
+    border-radius: 50px;
+  }
+
+  
